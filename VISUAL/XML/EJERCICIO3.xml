@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--En este ejercicio vamos a crear un documento que describa el menú de un restaurante que clasifican los platos en
+entrantes, platos principales y postres. De cada plato se necesita almacenar nombre, precio
+y calorías. -->
+
+<categorias nombre="Plato principal">
+    <nombre>Hamburguesa</nombre>
+    <precio valor="euros"> 5.50</precio>
+    <calorias valor="calorias">200</calorias>
+</categorias>
+<categorias nombre="Postre">
+    <nombre>Hamburguesa</nombre>
+    <precio valor="euros"> 5.50</precio>
+    <calorias valor="calorias"> 200</calorias>
+</categorias>

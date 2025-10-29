@@ -1,0 +1,25 @@
+
+<!-- En este primer ejercicio nos pide el ejecicio completar el contenido del documento para que el texto completo sea el siguiente (tres
+párrafos en total):
+ - ¿Hola qué tal?
+ - Hace mucho tiempo que no escribes. A ver si llamas y quedamos pronto.
+ - Un saludo.-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<mensaje>
+    <remite>
+        <nombre>Alfredo Reno</nombre>
+        <emails>sisi@bum.com</emails>
+    </remite>
+    <destinatario>
+        <nombre>Bill Clinton</nombre>
+        <email>president@whitehouse.gov</email>
+    </destinatario>
+    <asunto>Hola Bill</asunto>
+    <texto>
+        <parrafo>¿hola que tal?</parrafo>
+        <parrafo>Hace mucho tiempo que no escribes. A ver si llamas y quedamos pronto.</parrafo>
+        <parrafo>Un saludo.</parrafo>
+    </texto>
+</mensaje>
+

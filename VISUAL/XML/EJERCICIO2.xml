@@ -1,0 +1,34 @@
+EJERCICIO2 
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- En este ejercicio vamos a hacer una lista de productos por categorias. -->
+
+<fruta>
+    <producto>
+        <nombre>Manzana</nombre>
+        <cantidad>10</cantidad>
+    </producto>
+     <producto>
+        <nombre>Pera</nombre>
+        <cantidad>20</cantidad>
+    </producto>
+     <producto>
+        <nombre>Naranja</nombre>
+        <cantidad>30</cantidad>
+    </producto>
+</fruta>
+<verduras>
+<producto>
+        <nombre>Lechuga</nombre>
+        <cantidad>80</cantidad>
+    </producto>
+     <producto>
+        <nombre>Tomate</nombre>
+        <cantidad>15</cantidad>
+    </producto>
+     <producto>
+        <nombre>Pepino</nombre>
+        <cantidad>50</cantidad>
+    </producto>
+</verduras>

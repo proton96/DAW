@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--En este ejercicio vamos a desarrollar una tienda web que incluye una lista de clientes donde tenemos
+sus datos personales y la lista de artículos comprados para cada uno de ellos. Para cada
+artículo que compran se incluye la referencia, el nombre, el precio del artículo y la cantidad
+que se llevan. -->
+
+<tienda>
+  <cliente>
+    <nombre>Daniel</nombre>
+    <apellidos>Barrios Estévez</apellidos>
+    <correo>daniel@mail.com</correo>
+    <articulos>
+      <articulo>
+        <referencia>M107</referencia>
+        <nombre>Monitor 17</nombre>
+        <cantidad>1</cantidad>
+        <precio>150</precio>
+      </articulo>
+      <articulo>
+        <referencia>T54</referencia>
+        <nombre>Teclado mecánico</nombre>
+        <cantidad>5</cantidad>
+        <precio>8</precio>
+      </articulo>
+      <articulo>
+        <referencia>R500</referencia>
+        <nombre>Ratón Wireless</nombre>
+        <cantidad>10</cantidad>
+        <precio>5</precio>
+      </articulo>
+    </articulos>
+    <cliente>
+    <nombre>Jose Antonio</nombre>
+    <apellidos>Garcia Perez</apellidos>
+    <correo>ja.garcia@gigamail.com</correo>
+    <articulos>
+      <articulo>
+        <referencia>P500</referencia>
+        <nombre>Pantalla LED 50</nombre>
+        <cantidad>1</cantidad>
+        <precio>150</precio>
+      </articulo>
+      <articulo>
+        <referencia>P4SLIM</referencia>
+        <nombre>PlayStation4 Slim</nombre>
+        <cantidad></cantidad>
+        <precio>299</precio>
+      
+    </cliente>
+  </cliente>
+</tienda>
