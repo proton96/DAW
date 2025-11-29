@@ -1,18 +1,66 @@
-## Getting Started
+## EJERCICIO PDO ELECTRODOMESTICOS 
+Se trata de crear una clase llamada Electrodomestico con las siguientes características (4 puntos): 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Sus atributos son precio base, color, consumo energético (letras entre A+ hasta F) y peso.
+Por defecto, el color será blanco, el consumo energético será A, el precio base es de 100 € y el peso por defecto es de 10 kg.
+Los colores disponibles son: blanco, negro, plateado, rojo, azul y gris. Utilizar tipos enumerados para los colores.
+Los métodos que implementara serán:
+    -Constructor con todos los atributos y vacío.
+    -Métodos get y set de todos los atributos.
+    -comprobarConsumoEnergetico(String letra): comprueba que la letra es correcta, si no es correcta usará la letra por defecto. Este método se invocará al crear 
+    el objeto solamente y será privado.
+    -toString(): se muestra el precio base, consumo energético y peso.
+    -precioFinal():  calcula el precio final, según el consumo energético, aumentara su precio (tabla letra y precio), y también según su tamaño (tabla tamaño          precio). A continuación, se da la lista de precios y tamaños:
+ 
 
-## Folder Structure
+LETRA    PRECIO
 
-The workspace contains two folders by default, where:
+A+          120 €
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+A             100 €
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+B             80 €
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+C             60 €
 
-## Dependency Management
+D             50 €
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+E              30 €
+
+F              10 €
+
+TAMAÑO              PRECIO
+
+Entre 0 y 19 kg       10 €
+
+Entre 20 y 49 kg      30 €
+
+Entre 50 y 79 kg      50 €
+
+Mayor que 80 kg       100 €
+
+ 
+
+A continuación, creamos una clase derivada llamada Lavadora con las siguientes características: (3 puntos)
+
+Su atributo es carga, además de los atributos heredados.
+Por defecto, la carga es de 5 kg.
+El constructor lleva la carga y el resto de atributos heredados. Recuerda que debes llamar al constructor de la clase madre.
+Los métodos que se implementara serán:
+Método get de carga.
+toString(): se muestra el precio base, consumo energético, peso y carga.
+precioFinal(): si tiene una carga mayor de 6 kg, aumentara el precio 50 €, si no es así no se incrementara el precio. Llama al método padre y añade el código necesario.
+Recuerda que las condiciones que hemos visto en la clase Electrodomestico también deben afectar al precio.
+
+ 
+
+Ahora creamos una subclase llamada Television con las siguientes características: (3 puntos)
+
+Sus atributos son resolución (en pulgadas) y Netflix (booleano), además de los atributos heredados.
+Por defecto, la resolución será de 20 pulgadas y Netflix será false.
+Se implementa un constructor con la resolución, Netflix y el resto de atributos heredados. Recuerda que debes llamar al constructor de la clase padre.
+Los métodos que se implementara serán:
+Método get de resolución y Netflix.
+toString(): se muestra el precio base, consumo energético, peso, resolución y Netflix.
+precioFinal(): si tiene una resolución mayor de 20 pulgadas, se incrementara el precio un 30% (del precio base) y si viene con Netflix, aumentara 60 €.
+Recuerda que las condiciones que hemos visto en la clase Electrodomestico también deben afectar al precio.
