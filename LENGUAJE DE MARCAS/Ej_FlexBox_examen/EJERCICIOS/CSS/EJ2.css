@@ -1,0 +1,21 @@
+h1,h2{
+    font-family: 'Orbitron', 'sans-serif';
+    text-align: center;
+}
+.planetas>div {
+    width: 25%;
+    min-width: 300px;
+}
+.planetas{
+    display: flex;
+    flex-wrap: wrap;
+}
+.body{
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+img{
+    width: 100%;
+}

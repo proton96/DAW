@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Formulario CSS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <div id="contenedor">
+        <div id="formWrapper">
+            <form action="#" id="logIn">
+                <div>
+                    <label for="user">Usuario largo</label>
+                    <input id="user" type="text" placeholder="Ingrese usuario"
+                    minlength="5" maxlength="20" required >
+                </div>
+                <div>
+                    <label for="password">Contraseña</label>
+                    <input id="password" type="text" placeholder="Ingrese su contaseña"
+                    minlength="10" required >
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="Ingrese su correo electronico">
+                </div>
+                <div>
+                    <label for="telefono">Telefono</label>
+                    <input id="telefono" type="tel" placeholder="Ingrese su telefono"
+                    inputmode="numeric" pattern="[0-9]{9}" >
+                </div>
+                <div>
+                    <label for="pais">Pais</label>
+                    <select id="pais">
+                        <option>España</option>
+                        <option>Francia</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="sugerencias">Sugerencias: </label>
+                    <textarea rows="10" id="sugerencias" placeholder="Ingresa algo"></textarea>
+                </div>
+                <div>
+                    <label for="avatar">Avatar de usuario:</label>
+                    <input id="avatar" type="file" 
+                    accept=".png,.jpg,image/png,image/jpg" >
+                </div>
+                <button id="enviar" type="submit">Ingresar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

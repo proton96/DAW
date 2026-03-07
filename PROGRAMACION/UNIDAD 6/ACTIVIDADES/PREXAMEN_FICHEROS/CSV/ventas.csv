@@ -1,0 +1,5 @@
+Factura,Cliente,Importe,MetodoPago
+F-1001,Juan Perez,120.50,Tarjeta
+F-1002,Ana Lopez,80.00,Efectivo
+F-1003,Luis Garcia,35.90,Tarjeta
+F-1003,Luis Garcia,35.90a,Tarjeta

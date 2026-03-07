@@ -1,0 +1,46 @@
+div{
+
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    border: 1px solid grey;
+
+}
+
+
+.estatico{
+    position: static;
+}
+
+.relativo{
+    position: relative;
+    background-color: lightgreen;
+    top: 50px;
+    left: 50px;
+
+}
+
+.fijo{
+    position: fixed;
+    background-color: lightcoral;
+    top: 200px;
+    left: 300px;
+}
+
+.absoluto{
+    position: absolute;
+    background-color: lightsalmon;
+    top: 50px;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+/* Ancestro mas cercano que tenga una posicion distinta a static */
+.pegajoso{
+    position: sticky;
+    background-color: lightpink;
+    top: 0;
+ 
+}
+

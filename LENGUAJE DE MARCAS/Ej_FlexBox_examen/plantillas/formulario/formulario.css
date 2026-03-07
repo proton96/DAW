@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Configuración general para el cuerpo del documento */
+
+body {
+    background-image: url('/Ej_FlexBox_examen/EJERCICIOS/CSS/img/tierra.jpg'); /* Cambia 'imagen' por la URL de tu imagen */
+    background-repeat:repeat; /*puede dejarlo o no */
+     /* Selecciona la fuente 'Roboto' o una fuente sans-serif genérica para el texto del cuerpo. */
+     font-family: 'Roboto', 'sans-serif';
+     /* Establece el tamaño de fuente a 1 rem*/
+     font-size: 1rem;
+}
+
+#contenedor {
+     /* Establece el ancho del contenedor principal al 40% del ancho del contenedor padre. */
+    width: 80%;
+    /* Establece el ancho mínimo del contenedor principal en 500 píxeles. */
+    min-width: 500px;
+    /* Establece un fondo blanco semi-transparente utilizando valores RGBA. */
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Agrega bordes redondeados al contenedor principal de 8px en todos los lados. */
+    border-radius: 8px;
+}
+
+#formWrapper {
+   /* Añade un relleno interno de 20 píxeles al contenedor del formulario. */
+    padding: 20px;
+}
+
+#logIn {
+    /* Solo tiene estilos flexibles */
+    display: flex;
+    flex-direction: column;
+}
+
+#logIn > div {
+   /* Agrega un margen inferior de 15 píxeles entre cada div dentro del formulario. */
+    margin-bottom: 15px;
+}
+
+/* Estilo para las etiquetas del formulario */
+#logIn label {
+    
+    
+  /* Establece un peso de fuente de 700 para las etiquetas del formulario. */
+ font-weight: 700;
+     /* Agrega un margen derecho de 10 píxeles a las etiquetas del formulario. */
+margin-right: 10px;}
+
+/* Estilo para los campos de entrada del formulario */
+#logIn input {
+   /* El font size se hereda del body */
+    font-size: 1rem;
+    /* Añade un relleno interno de 8 píxeles a los campos de entrada. */
+    padding: 8px;
+    /* Establece un borde sólido de 1 píxel con un color gris claro. */
+    border: 1px solid #ccc;
+    /* Agrega bordes redondeados a los campos de entrada. */
+    border-radius: 4px;
+
+    #select{ 
+        /* El font size se hereda del body */
+    font-size: 1rem;
+    /* Añade un relleno interno de 8 píxeles a los campos de entrada. */
+    padding: 8px;
+    /* Establece un borde sólido de 1 píxel con un color gris claro. */
+    border: 1px solid #ccc;
+    /* Agrega bordes redondeados a los campos de entrada. */
+    border-radius: 4px;
+    }
+    #textarea{
+
+    }
+
+#enviar {
+    cursor: pointer;
+    transition: background-color 1s ease;
+    /* Establece el color de fondo del botón de enviar a verde. */
+    background-color: green;
+    /* Establece el color del texto del botón de enviar a blanco. */
+    color: white;
+    /* Añade un relleno interno de 10 píxeles al botón de enviar. */
+    padding: 10px;
+    /* Elimina el borde del botón de enviar. */
+    border: none;
+    /* Agrega bordes redondeados al botón de enviar. */
+    border-radius: 4px;
+    /* El font size se hereda del body */
+    font-size: 1rem;
+}
+
+
+/* Estilo para el botón de enviar al pasar el ratón sobre él */
+#enviar:hover {
+      /* Cambia el color de fondo del botón de enviar a azul al pasar el ratón sobre él. */
+        background-color: blue;}
+
+
+
+
+
+}

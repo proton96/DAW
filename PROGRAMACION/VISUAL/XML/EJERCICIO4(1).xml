@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--En este ejercicio vamos a Tenemos una aplicación web para encontrar coches con una serie de concesionarios que
+disponen de una lista de coches (usados o nuevos) y sus respectivos precios-->
+
+<concesionarios>
+  <concesionario nombre="Coches S.L. Granada">
+    <coche>
+      <modelo>BMW</modelo>
+      <estado>nuevo</estado>
+      <precio  valor= "EUR">100000</precio>
+    </coche>
+    <coche>
+      <modelo>Nissan</modelo>
+      <estado>usado</estado>
+      <precio valor= "EUR">40000 </precio>
+    </coche>
+    <coche>
+      <modelo>Audi</modelo>
+      <estado>nuevo</estado>
+      <precio valor= "EUR">54000 </precio>
+    </coche>
+  </concesionario>
+  <concesionario nombre="RootCars and Vans S.L.">
+    <coche>
+      <modelo>Megane</modelo>
+      <estado>usado</estado>
+      <precio valor= "EUR">2000 </precio>
+    </coche>
+    <coche>
+      <modelo>Peugeot</modelo>
+      <estado>nuevo</estado>
+      <precio valor= "EUR">12000 </precio>
+    </coche>
+  </concesionario>
+</concesionarios>

@@ -1,0 +1,79 @@
+Desarrollar una clase siguiendo los requerimientos especificados.
+
+Entregar la versión A o B de la tarea.
+
+Versión A
+
+Desarrollar una clase llamada Tienda.
+
+Las propiedades de la clase son las siguientes:
+
+producto: Nombre del producto
+precio: Precio del producto
+iva: IVA del producto, en número
+descuento: Descuento sobre el precio del producto, en número
+Hay que llevar la cuenta del número de productos de la tienda, así como tener un descuento global para todos los productos de la tienda. El número de productos solamente se puede leer desde fuera de la clase. El descuento global es de solo escritura desde fuera de la clase.
+
+En cuanto a los métodos de la clase, son los siguientes:
+
+Se puede crear un producto con todos los datos, o bien pasando solamente el nombre del producto. En ese caso, el precio por defecto será de diez euros, el descuento cero y el iva 21.
+calcularPrecio(),  Obtiene el precio del producto, calculado a partir del precio, se aplica el descuento mayor entre el descuento del producto, y el descuento global, y aplicar el iva.
+toString(), mostrará por pantalla el nombre del producto y el precio final.
+Datos de prueba:
+
+Impresora HP. Precio 100 Euros. IVA 21%. Descuento 5%
+
+Ratón Logitech.
+
+Libro Java. Precio 20 Euros. IVA 4%. Descuento 15%;
+
+Mostrar todos los datos de los productos y número de productos.
+
+Llega el Black Friday, se aplica un descuento a todos los productos del 10%.
+
+El producto ratón Logitech sube a 12 Euros.
+
+Mostrar todos los datos de los productos y número de productos.
+
+ 
+
+Versión B
+
+Desarrollar una clase llamada Empleado.
+
+Las propiedades de la clase son las siguientes:
+
+nombre
+apellidos
+sueldo base: sueldo básico
+retenciones
+categoría: Puede ser A. B, C, D
+Hay que llevar la cuenta del número de empleados de la empresa, así como tener una prima global para todos los empleados. El número de empleados solamente se puede leer desde fuera de la clase. La prima es de solo escritura desde fuera de la clase.
+
+En cuanto a los métodos de la clase, son los siguientes:
+
+Se puede crear un empleado con todos los datos, o bien pasando solamente el nombre del empleado. En ese caso, el sueldo base por defecto será de 1500 euros, el puesto será A y las retenciones el 5%.
+calcularSueldo(),  Obtiene el sueldo del empleado, calculado de la siguiente forma:
+Sueldo base
+Se incrementa según la categoría:
+A + 100 Euros
+B + 200 Euros
+C + 300 Euros
+D + 500 Euros
+La prima es el porcentaje de incremento sobre el sueldo base, a todos los empleados.
+toString(), mostrará por pantalla el nombre y apellidos del empleado, y el sueldo.
+Datos de prueba:
+
+Pedro Pérez, 1300 Euros, categoría B. Retenciones 2%.
+
+Ana Díez.
+
+Carmen Lorenzo, 1250 Euros, categoría D. Retenciones 6%;
+
+Mostrar todos los datos de los empleados y número de empleados.
+
+Se aplica una prima de bonificación a todos los empleados del 10%.
+
+Pedro Pérez asciende a la categoría C.
+
+Mostrar todos los datos de los empleados y número de empleados.

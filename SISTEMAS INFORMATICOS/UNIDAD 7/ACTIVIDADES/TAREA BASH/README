@@ -1,0 +1,13 @@
+or grupos, entregar un documento resolviendo las siguientes cuestiones:
+
+Explicar y practicar el uso de las variables PS1, PS2, PS3, PS4 y PROMPT_COMMAND.
+Crear un script en bash que acepte tres parámetros:
+Origen
+Destino
+Nombre de la copia
+El script copia y comprime el contenido de la carpeta origen en la carpeta destino, con el siguiente nombre: nombre_yyyymmdd.gz
+Ejemplo:  
+$ copia /home/vacosta/datos /home/vacosta/backup copia_seg
+Se guarda los archivos de /home/vacosta/datos en el archivo
+/home/vacosta/backup/copia_seg_20240110.gz
+Diseña un script bash que haga alguna tarea útil en tu día a día de forma automática.

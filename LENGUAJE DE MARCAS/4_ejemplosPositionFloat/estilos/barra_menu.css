@@ -1,0 +1,23 @@
+body {
+    height: 150vh;
+}
+
+nav {
+    box-sizing: border-box;
+    background-color: black;
+    width: 100%;
+    padding: 1rem;
+    border-bottom: 5px peru solid;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin-right: 25px;
+}
+
+.rrss {
+    color: white;
+    font-size: 2.5rem;
+}

@@ -1,0 +1,13 @@
+sumar <- function(a,b){
+  return(a+b)
+}
+
+es_par <- function(a){
+  a %% 2 == 0
+}
+
+es_multiplode3 <- function(n){
+  n %% 3 == 0
+}
+
+

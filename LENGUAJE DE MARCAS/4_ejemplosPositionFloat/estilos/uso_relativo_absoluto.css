@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+}
+
+.portada {
+    height: 500px;
+    background-image: url(../assets/img/ico.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 80%; 
+}
+
+.texto {
+    box-sizing: border-box;
+    font-family: 'Lemonada', cursive;
+    background-color: #00000055;
+    color: white;
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+    padding: 0.25em;
+}

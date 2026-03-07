@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServicioIncidencias>
+  <Incidencia>
+    <ID>INC1001</ID>
+    <FechaReporte>2025-10-06T18:48:00+02:00</FechaReporte>
+    <Vencimiento>2025-11-06T22:30:00+02:00</Vencimiento>
+    <ReportadoPor>usuario1@caixabank.com</ReportadoPor>
+    <Tipo>Microinformatica</Tipo>
+    <Categoria>Hardware</Categoria>
+    <Descripcion>El portátil no enciende y no responde al botón de power.</Descripcion>
+    <Prioridad>Alta</Prioridad>
+    <Estado>Abierta</Estado>
+    <AsignadoA>SoporteGranada</AsignadoA>
+  </Incidencia>
+  <Incidencia>
+    <ID>INC1002</ID>
+    <FechaReporte>2025-09-06T18:48:00+02:00</FechaReporte>
+    <Vencimiento>2025-10-06T22:30:00+02:00</Vencimiento>
+    <ReportadoPor>usuario2@caixabank.com</ReportadoPor>
+    <Tipo>Microinformatica</Tipo>
+    <Categoria>Software</Categoria>
+    <Descripcion>Pantallazo azul, no arranca Windows.</Descripcion>
+    <Prioridad>Alta</Prioridad>
+    <Estado>Abierta</Estado>
+    <AsignadoA>SoporteGranada</AsignadoA>
+  </Incidencia>
+  <Incidencia>
+    <ID>INC1003</ID>
+    <FechaReporte>2025-08-06T18:48:00+02:00</FechaReporte>
+    <Vencimiento>2025-09-06T22:30:00+02:00</Vencimiento>
+    <ReportadoPor>usuario3@caixabank.com</ReportadoPor>
+    <Tipo>Microinformatica</Tipo>
+    <Categoria>Hardware</Categoria>
+    <Descripcion>El ventilador del ordenador sobremesa esta haciendo mucho ruido.</Descripcion>
+    <Prioridad>Alta</Prioridad>
+    <Estado>Abierta</Estado>
+    <AsignadoA>SoporteGranada</AsignadoA>
+  </Incidencia>
+  <Incidencia>
+    <ID>INC1004</ID>
+    <FechaReporte>2025-07-06T18:48:00+02:00</FechaReporte>
+    <Vencimiento>2025-08-06T22:30:00+02:00</Vencimiento>
+    <ReportadoPor>usuario4@caixabank.com</ReportadoPor>
+    <Tipo>Microinformatica</Tipo>
+    <Categoria>Software</Categoria>
+    <Descripcion>El terminal financiero no arranca y muestra bloqueo al iniciar.</Descripcion>
+    <Prioridad>Alta</Prioridad>
+    <Estado>Abierta</Estado>
+    <AsignadoA>SoporteGranada</AsignadoA>
+  </Incidencia>
+</ServicioIncidencias>

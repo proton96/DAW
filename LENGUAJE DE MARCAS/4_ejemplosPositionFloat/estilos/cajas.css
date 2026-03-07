@@ -1,0 +1,22 @@
+div{
+    width:450px;
+    height:225px ;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    padding-top: 80.5px;
+    box-sizing: border-box;
+}
+
+#primero{
+    background-color: aqua;
+}
+
+#segundo{
+    background-color: brown;
+}
+
+#tercero{
+    background-color: yellowgreen;
+}
