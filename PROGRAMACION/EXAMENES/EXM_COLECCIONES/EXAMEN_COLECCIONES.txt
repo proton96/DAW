@@ -1,0 +1,116 @@
+EJERCICIO 1 — Gimnasio (Uso obligatorio de ArrayList)
+Desarrollar una aplicación que gestione los socios de un gimnasio.
+
+Requisitos obligatorios
+Crear una clase llamada Socio.
+
+Utilizar como estructura principal: ArrayList<Socio>.
+
+Datos de cada socio
+nombre (String)
+
+dni (String) → único, no se permite duplicado
+
+edad (int)
+
+fechaInscripcion (String)
+
+activo (boolean)
+
+Clase Socio
+Debe incluir:
+
+Constructor/es necesarios.
+
+Getters y setters.
+
+Método toString() que muestre todos los datos.
+
+Condiciones iniciales
+Crear 5 socios en tiempo de diseño.
+
+Todos estarán inicialmente con activo = true.
+
+Opciones del menú
+Alta de socio
+Registrar un nuevo socio. No se permiten DNIs duplicados.
+
+Baja de socio
+Buscar por DNI y cambiar activo = false.
+
+Listado de socios activos
+Mostrar socios con activo = true, ordenados por nombre.
+
+Listado de socios inactivos
+Mostrar socios con activo = false, ordenados por DNI.
+
+Borrar socio
+Eliminar socio por DNI.
+
+Salir
+
+ EJERCICIO 2 — Tienda Online (Uso obligatorio de Map)
+Desarrollar una aplicación que gestione los productos de una tienda online.
+
+Requisitos obligatorios
+Crear una clase llamada Producto.
+
+Utilizar como estructura principal un Map<String, Producto>, donde:
+
+La clave será el código del producto.
+
+El valor será el objeto Producto.
+
+Datos de cada producto
+codigo (String) → clave única
+
+nombre (String)
+
+precio (double)
+
+stock (int)
+
+disponible (boolean)
+
+Clase Producto
+Debe incluir:
+
+Constructor/es necesarios.
+
+Getters y setters.
+
+Método toString() que muestre todos los datos.
+
+Condiciones iniciales
+Crear 5 productos en tiempo de diseño.
+
+Todos estarán inicialmente con disponible = true.
+
+Opciones del menú
+Alta de producto
+Registrar nuevo producto. No se permite código duplicado.
+
+Modificar stock
+Buscar producto por código y actualizar el stock.
+
+Listado de productos disponibles
+Mostrar productos con disponible = true, ordenados por nombre.
+
+Listado de productos sin stock
+Mostrar productos con stock = 0.
+
+Borrar producto
+Eliminar producto por código.
+
+Salir
+
+Se valorará especialmente:
+Correcto control de duplicados.
+
+Uso correcto de ArrayList y Map.
+
+Organización clara del menú.
+
+Métodos separados para cada funcionalidad.
+
+Código limpio y funcional.
