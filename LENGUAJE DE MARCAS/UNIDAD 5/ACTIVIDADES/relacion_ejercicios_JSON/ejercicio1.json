@@ -1,0 +1,74 @@
+{
+    "libreria": {
+        "libros": [
+            {
+                "titulo": "El Gran Gatsby",
+                "autor": "F.Scott",
+                "anio": 1925
+            },
+            {
+                "titulo": "Cien años de soledad",
+                "autor": "Gabriel Garcia Marquez",
+                "anio": 1967
+            }
+        ]
+    },
+    "productos": {
+        "producto": [
+            {
+                "nombre": "Camiseta",
+                "precio": 20.99,
+                "stock": 150
+            },
+            {
+                "nombre": "Pantalon",
+                "precio": 35.50,
+                "stock": 100
+            }
+        ]
+    },
+    "universidad": {
+        "nombre": "Ingenieria",
+        "departamentos": [
+            {
+                "departamento": {
+                    "nombre": "Informatica",
+                    "profesores": [
+                        {
+                            "nombre": "Marta",
+                            "especialidad": "Base de datos"
+                        },
+                        {
+                            "nombre": "Jose",
+                            "especialidad": "Inteligencia Artificial"
+                        }
+                    ]
+                },
+                "departamento": {
+                    "nombre": "Electronica",
+                    "profesores": [
+                        {
+                            "nombre": "Luis",
+                            "especialidad": "Electronica digital"
+                        }
+                    ]
+                }
+            }
+        ]
+        
+    },
+
+    "corporacion":{
+        
+
+
+
+
+
+    }
+
+
+
+
+
+}

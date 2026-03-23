@@ -1,0 +1,24 @@
+{
+
+    "pedidos":[
+        {
+            "id":1,
+            "cliente":{
+
+
+            },
+            "productos":[
+                {
+                
+                }
+            ],
+            "fecha":"",
+            "estado":"",
+            "pagos":[
+                {
+
+                }
+            ]
+        }
+    ]
+}

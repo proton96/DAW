@@ -1,0 +1,25 @@
+
+    {
+        "Cds en oferta":[
+        {
+            "titulo":"Still got the blues",
+            "Artista":"Gary Moore",
+            "Pais":"UK",
+            "Compania discografica":"Virgin records",
+            "Precio":10.2,
+            "Anio de publicacion":1990
+        },
+    
+        {
+            "titulo":"One night only",
+            "Artista":"Bee Gees",
+            "Pais":"UK",
+            "Compania discografica":"Polydoor",
+            "Precio":10.90,
+            "Anio de publicacion":1998
+        },
+
+
+
+    ]
+}
