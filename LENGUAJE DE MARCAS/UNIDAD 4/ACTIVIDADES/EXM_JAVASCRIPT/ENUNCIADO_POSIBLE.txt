@@ -1,0 +1,23 @@
+EJERCICIO1 (2,25)
+- 5 apartados
+Nos pide que desde JavaScript modifiquemos alguna caracteristica de HTML o CSS
+
+    -Dada esta imagen que esta en el HTML haz que haga algo.
+    -Un boton que cuando haces click abria en la misma pestaña , ahora abrira en una nueva pestaña:
+        -Para hacer lo del boton tu te cojes el boton y sus propiedades y modificas la propiedad
+
+EJERCICIO2 (2,25)
+
+- 2 apartados
+
+Nos da un array, y con el tenemos que hacer , una lista y una tabla
+
+EJERCICIO3 (2.5)
+
+ - Tiene dos div y 3 botones , 2 botones para un div y el tercero para un div
+
+ La mecanica seria que crezca o decrezca el div y hacer un AddEventListener con qdown
+
+ EJERCICIO4(3)
+
+ igual que el ultimo ejercicio de la relacion , con 3 botones al que tendremos que implementar una funcion a cada boton que actualizara un texto
