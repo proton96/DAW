@@ -1,0 +1,99 @@
+[
+    {
+        "Recetas": [
+            {
+                "receta1": [
+                    {
+                        "nombre": "Pollo al limon",
+                        "tipo": "cocina mediterranea",
+                        "ingredientes": "Pechuga de pollo,limon,ajo,tomillo,romero",
+                        "tiempo": 55,
+                        "preparacion": [
+                            {
+                                "paso1": "Mezclar limón, ajo, tomillo y romero durante 5 minutos",
+                                "paso2": "Marinar el pollo en esta mezcla durante 15 minutos.",
+                                "paso3": "Cocinar el pollo en una sartén hasta que esté dorado durante 20 minutos.",
+                                "paso4": " Servir con rodajas de limón y romero fresco durante 15 minutos."
+                            }
+                        ],
+                        "valoracion": 4.8,
+                        "comentarios": [
+                            {
+                                "usuarios": [
+                                    {
+                                        "FoodieQueen23": [
+                                            {
+                                                "comentario": "deliciosa combinación de sabores y facilidad de preparación",
+                                                "fecha_publicacion": "2024-04-16"
+                                            }
+                                        ],
+                                        "HealthyChef45": [
+                                            {
+                                                "comentario": "Una receta sencilla y saludable. ¡Me encanta!",
+                                                "fecha_publicacion": "2024-04-15"
+                                            }
+                                        ],
+                                        "CookingNovice": [
+                                            {
+                                                "comentario": "Mi primer intento con esta receta y quedó increíble. Gracias por compartirla.",
+                                                "fecha_publicacion": "2024-04-14"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "receta2": [
+                    {
+                        "nombre": "Tarta de Manzana Casera",
+                        "tipo": "postre",
+                        "ingredientes": "manzanas, harina, azúcar y canela",
+                        "tiempo": [
+                            {
+                                "tiempo_total": 60,
+                                "tiempo_horneado": 40
+                            }
+                        ],
+                        "preparacion": [
+                            {
+                                "paso1": "Cortar manzanas y colocarlas sobre una masa durante 15 minutos.",
+                                "paso2": "Espolvorear azúcar y canela durante 5 minutos.",
+                                "paso3": "Cubrir con otra capa de masa durante 10 minutos.",
+                                "paso4": "Hornear hasta que esté dorada y las manzanas estén tiernas durante 20 minutos"
+                            }
+                        ],
+                        "valoracion": 4.5,
+                        "comentarios": [
+                            {
+                                "usuarios": [
+                                    {
+                                        "BakingEnthusiast99": [
+                                            {
+                                                "comentario": "perfecta para cualquier ocasión debido a su delicioso sabor",
+                                                "fecha_publicacion": "2024-04-15"
+                                            }
+                                        ],
+                                        "SweetTooth23": [
+                                            {
+                                                "comentario": "Esta tarta se ha convertido en un favorito en mi casa. ¡Gracias por la receta!",
+                                                "fecha_publicacion": "2024-04-14"
+                                            }
+                                        ],
+                                        "DessertQueen": [
+                                            {
+                                                "comentario": "¡Increíblemente deliciosa! No puedo esperar para hacerla de nuevo.",
+                                                "fecha_publicacion": "2024-04-13"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
